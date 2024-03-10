@@ -3,8 +3,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt 
 
-
-data_frame = pd.read_csv("robot-employment-data.csv")
+data_frame = pd.read_csv("/users/hic/src/Robot_Employment/robot-employment-data.csv")
 
 year = data_frame["Year"];
 robots = data_frame["Robots"]
@@ -24,7 +23,7 @@ ax2=ax.twinx()
 # make a plot with different y-axis using second axis object
 ax2.plot(year, employment,color="blue",marker="o")
 ax2.set_ylabel("Manufacturing Employment (x 1000)",color="blue",fontsize=14)
-plt.title("Employment in manufacturing and sale of robots in the US (2010-2021)")
+plt.title("Employment in manufacturing and sale of robots in the US (2010-2022)")
 plt.show()
 # Save to file as PDF
-fig.savefig('robot-employment.pdf', format='pdf', dpi=220, bbox_inches='tight')
+fig.savefig('robot-employment22.pdf', format='pdf', dpi=220, bbox_inches='tight')
