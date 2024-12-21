@@ -1,5 +1,5 @@
-;; This is a Python script that creates a bar chart of the number of robots per 10,000 workers in various countries.
-;; Source World Robotics 2024
+## This is a Python script that creates a bar chart of the number of robots per 10,000 workers in various countries.
+## Source World Robotics 2024
 
 import matplotlib.pyplot as plt
 
