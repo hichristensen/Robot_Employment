@@ -23,7 +23,7 @@ ax2=ax.twinx()
 # make a plot with different y-axis using second axis object
 ax2.plot(year, employment,color="blue",marker="o")
 ax2.set_ylabel("Manufacturing Employment (x 1000)",color="blue",fontsize=14)
-plt.title("Employment in manufacturing and sale of robots in the US (2010-2022)")
+plt.title("Employment in manufacturing and sale of robots in the US (2010-2024)")
 plt.show()
 # Save to file as PDF
-fig.savefig('robot-employment22.pdf', format='pdf', dpi=220, bbox_inches='tight')
+fig.savefig('robot-employment24.pdf', format='pdf', dpi=220, bbox_inches='tight')
